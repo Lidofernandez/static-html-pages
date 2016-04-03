@@ -1,7 +1,7 @@
 /* Media Queries -------------------- */
 
 @media (max-width: 1024px) {
-  
+
   .primary-content,
   .secondary-content {
     width: 90%;
@@ -49,7 +49,7 @@
     float: none;
     width: 100%;
   }
-  
+
   .main-footer{
     padding: 20px 0;
   }

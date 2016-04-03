@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Manager</title>
+  <!-- Bootstrap -->
+  <link href="../public/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Project -->
+  <link href="css/application.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Task Manager</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Task List <span class="badge">2</span> <span class="sr-only">(current)</span></a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- /NavBar -->
+  <div class="container">
+    <!-- breadcrumbs-->
+    <ol class="breadcrumb">
+      <li class="active">Task List</li>
+    </ol>
+    <!-- /breadcrumbs -->
+    <div class="page-header">
+      <h1>Tasks</h1>
+    </div>
+    <div class="list-group">
+      <a href="task.html" class="list-group-item">Get the kids <span class="label label-info">To Do</span></a>
+      <a href="task.html" class="list-group-item">Do the shopping <span class="label label-success">Completed</span></a>
+      <a href="task.html" class="list-group-item">Get a Coursera Course <span class="label label-warning">In progress</span></a>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../public/bower_components/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Project -->
+  <script src="js/application.js"></script>
+</body>
+</html>

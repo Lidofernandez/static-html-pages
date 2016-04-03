@@ -25,7 +25,7 @@ h2 {
   font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 }
 
-h1 {  
+h1 {
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
@@ -108,7 +108,7 @@ a:active {
 
 .intro {
   font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6;  
+  line-height: 1.6;
 }
 
 .primary-content,
@@ -148,7 +148,7 @@ a:active {
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
+.primary-content,
 .secondary-content {
   width: 75%;
   padding-left: 50px;
@@ -164,7 +164,7 @@ a:active {
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
   margin: 105px 0 60px;
-  background:#434a52 url(../img/condor.jpg) no-repeat center; 
+  background:#434a52 url(../img/condor.jpg) no-repeat center;
   background-size: cover;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 50px 10px;
